@@ -1,6 +1,6 @@
 # Portable Display
 
-A 3D-printable enclosure for a DIY portable monitor. The design covers the complete housing: a front bezel frame, a rear cover, a driver-board bay with ventilation slots and port cut-outs along the top edge, and a fold-out kickstand with a hinge pin.
+A 3D-printable enclosure for a DIY portable monitor. The design covers the complete housing: a front bezel frame, a rear cover, a shell for the display driver board with built-in housings for two 5 W speakers, ventilation slots and port cut-outs along the top edge, and a fold-out kickstand with a hinge pin.
 
 Modeled in Tinkercad and exported as STL — ready to slice and print, no repair pass needed.
 
@@ -14,7 +14,8 @@ Modeled in Tinkercad and exported as STL — ready to slice and print, no repair
 
 - **Panel size** — outer frame measures **343.6 × 182.4 mm**, sized around a 15-inch-class 16:9 LCD panel.
 - **Two-shell build** — front bezel and rear cover close over the panel; screw bosses sit at the four corners of the bezel.
-- **Driver-board bay** — a raised rear module houses the controller board, with a slotted vent array for passive cooling.
+- **Driver shell** — a raised rear module houses the display driver board, with a slotted vent array for passive cooling.
+- **Audio** — the same shell carries two enclosed chambers for 5 W speakers (2 × 5 W stereo), one at each top corner, with a vented grille strip.
 - **Port access** — openings along the top edge of the rear module for the board's HDMI / USB-C / power and button connections.
 - **Kickstand** — a hinged arm on a cylindrical pin lets the display stand at a viewing angle and fold flat for transport.
 
@@ -26,10 +27,10 @@ All models are binary STL, in millimetres.
 |---|---|---|
 | `3D File/Portable Display.stl` | Front bezel frame | 343.6 × 77.1 × 182.4 |
 | `3D File/Portable Display (1).stl` | Rear cover with board window | 343.6 × 82.9 × 185.0 |
-| `3D File/Portable Display (2).stl` | Driver-board housing (vents + ports) | 196.0 × 72.4 × 112.1 |
+| `3D File/Portable Display (2).stl` | Driver-board shell with 2 × 5 W speaker housings, vents and port cut-outs | 196.0 × 72.4 × 112.1 |
 | `3D File/Portable Display (3).stl` | Kickstand arm | 16.4 × 30.0 × 72.2 |
 | `3D File/Portable Display (4).stl` | Hinge pin | 5.4 × 5.4 × 4.9 |
-| `3D File/Portable Display (5).stl` | Vented port strip | 90.0 × 8.0 × 15.0 |
+| `3D File/Portable Display (5).stl` | Vented grille strip | 90.0 × 8.0 × 15.0 |
 | `ScreenShot/` | Render previews of the assembly | — |
 
 ## Printing notes
@@ -43,7 +44,7 @@ Starting point — tune to your own printer and filament:
 - **Supports:** needed on the port cut-outs and the hinge boss; the flat shells print support-free laid face down
 - **Bed:** the bezel and rear cover are larger than a 220 × 220 mm bed — print them on a 350 mm-class printer, or split them before slicing
 
-Dry-fit the bezel against your panel and the housing against your driver board before committing to a full print — panel and board dimensions vary between suppliers.
+Dry-fit the bezel against your panel and the shell against your driver board and 5 W speakers before committing to a full print — panel, board and speaker dimensions vary between suppliers.
 
 ## License
 
@@ -51,5 +52,6 @@ Released under the [MIT License](LICENSE).
 
 ## Author
 
-**Md. Mahin Rahman**
-GitHub: [@thisisdibbo](https://github.com/thisisdibbo)
+**Md. Mahin Rahman**  
+GitHub: [@thisisdibbo](https://github.com/thisisdibbo)  
+Email: [mr.d2003feb@gmail.com](mailto:mr.d2003feb@gmail.com)
